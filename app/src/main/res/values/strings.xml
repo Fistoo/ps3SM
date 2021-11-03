@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Ps3</string>
+    <string name="task_name_lable">Wprowadź nazwę zadania</string>
+    <string name="task_name_hint">Nazwa</string>
+    <string name="task_details_lable">Szczegóły</string>
+    <string name="task_done_lable">Wykonane</string>
 </resources>

@@ -1,14 +1,14 @@
-
 package com.example.ps3;
+
+import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
-import android.os.Bundle;
+public abstract class SingleFragmentActivity extends AppCompatActivity {
 
-public class MainActivity extends AppCompatActivity {
-
+    protected abstract Fragment createFragment();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
